@@ -33,6 +33,7 @@ void DFS(struct Graph* graph, int vertex) {
     if (graph->visited[connectedVertex] == 0) {
       DFS(graph, connectedVertex);
     }
+    //changed
     temp = temp->next;
   }
 }
